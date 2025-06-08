@@ -43,55 +43,55 @@ F --> G[Images displayed on UI]
 
 ## 🔐 API Keys Required
 Create accounts and get API keys from:
-🔸 Clarifai: https://clarifai.com
-🔸 Unsplash Developers: https://unsplash.com/developers
-🔸 imgbb: https://api.imgbb.com/
+🔸 Clarifai: https://clarifai.com  
+🔸 Unsplash Developers: https://unsplash.com/developers  
+🔸 imgbb: https://api.imgbb.com/  
 
 ---
 
 ### 📝 Example .env file (backend/.env)
 
-UNSPLASH_ACCESS_KEY=your_unsplash_access_key
+UNSPLASH_ACCESS_KEY=your_unsplash_access_key  
 IMGBB_API_KEY=your_imgbb_api_key
 
 ---
 
 ## 📁 Folder Structure
 
-vision-snap/
-├── backend/
-│   ├── index.js
-│   ├── getTagsFromImage.js
-│   ├── searchByTags.js
-│   └── .env
-└── vision-snap-frontend/
-    ├── src/
-    │   ├── App.jsx
-    │   ├── App.css
-    │   ├── main.jsx
-    │   └── index.css
-    └── package.json
+vision-snap/  
+├── backend/  
+│   ├── index.js  
+│   ├── getTagsFromImage.js  
+│   ├── searchByTags.js  
+│   └── .env  
+└── vision-snap-frontend/  
+    ├── src/  
+    │   ├── App.jsx  
+    │   ├── App.css  
+    │   ├── main.jsx  
+    │   └── index.css  
+    └── package.json  
 
 ---
 
 # ⚙️ Setup Instructions
 
 ## 1️⃣ Clone the Repo
-git clone https://github.com/your-username/vision-snap.git
+git clone https://github.com/your-username/vision-snap.git  
 cd vision-snap
 
 ## 2️⃣ Backend Setup
-cd backend
+cd backend  
 npm install
 
-Create a .env file and add your API keys as shown above.
-Start the server: node index.js
+Create a .env file and add your API keys as shown above.  
+Start the server: node index.js  
 -> Backend runs at http://localhost:6969
 
 ## 3️⃣ Frontend Setup
-cd ../vision-snap-frontend
-npm install
-npm run dev
+cd ../vision-snap-frontend  
+npm install  
+npm run dev  
 
 React frontend runs at http://localhost:5173 by default.
 
@@ -119,9 +119,9 @@ React frontend runs at http://localhost:5173 by default.
 ---
 
 # 🧪 Testing
-✅ Upload .jpg / .png files to test image search.
-✅ Try different keywords in the Search Gallery field.
-✅ Test error cases (e.g. no tags, invalid image, missing API key).
+✅ Upload .jpg / .png files to test image search.  
+✅ Try different keywords in the Search Gallery field.  
+✅ Test error cases (e.g. no tags, invalid image, missing API key).  
 
 ---
 
@@ -146,7 +146,7 @@ npm install
 
 # 🙏 Acknowledgements
 
-* [Clarifai API](https://www.clarifai.com/)
+* [Clarifai API](https://www.clarifai.com/) 
 * [Unsplash API](https://unsplash.com/developers)
 * [imgbb Image Hosting](https://api.imgbb.com/)
 * Icons from [Emoji Guide](https://emojiguide.org/)
